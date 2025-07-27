@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background: #0f172a;
+  background-image: radial-gradient(#38bdf8 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: moveBg 60s linear infinite;
+}
+
+@keyframes moveBg {
+  from { background-position: 0 0; }
+  to { background-position: 1000px 1000px; }
+}
